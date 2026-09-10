@@ -125,7 +125,7 @@ The Developer may release updates and change balance, interface, levels, feature
 
 ### 5. Advertising and third-party services
 
-Monetized versions may show banner, interstitial, and voluntary rewarded ads through Google AdMob. Google Analytics for Firebase and Firebase Crashlytics may be used to understand game performance and diagnose crashes. Third-party processing is described in the [Privacy Policy](https://karoda1995.github.io/pixel-color-quest-legal/privacy/) and Google’s documentation.
+Monetized versions may show banner, interstitial, and voluntary rewarded ads through Google AdMob. Google Analytics for Firebase and Firebase Crashlytics may be used to understand game performance and diagnose crashes. Third-party processing is described in the [Privacy Policy](https://magicfox.space/privacy/) and Google’s documentation.
 
 Users may purchase removal of banner and interstitial advertising when the product is available on Google Play. Rewarded advertising remains a separate voluntary feature where stated in the Game.
 

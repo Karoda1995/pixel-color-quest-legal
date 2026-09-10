@@ -1,0 +1,10 @@
+title: Magic Fox
+description: Playful games for mobile and web.
+url: https://magicfox.space
+baseurl: ""
+email: magic.fox.game@gmail.com
+permalink: pretty
+exclude:
+  - README.md
+  - DEPLOYMENT.md
+
