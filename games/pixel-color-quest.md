@@ -4,18 +4,19 @@ title: Pixel Color Quest
 permalink: /games/pixel-color-quest/
 description: Relax, choose a picture, and bring every tiny pixel to life with color.
 heading: Color your way to calm
-platforms: Android
-genre: Color by number
-cover: pixel
-icon: 🦊
-shot1: Choose a picture
-shot2: Match the numbers
-shot3: Finish your art
+platforms: Web browser & Mobile web
+genre: Casual puzzle
+play_url: https://playhop.com/app/553641
+cover_image: /assets/images/covers/cover_game_1.jpg
+screenshots:
+  - /assets/images/screenshots/553641-1.webp
+  - /assets/images/screenshots/553641-2.webp
+  - /assets/images/screenshots/553641-3.webp
 features:
-  - A growing collection of colorful pixel pictures
-  - Simple one-touch painting made for relaxing play
-  - Helpful fills and hints when you need them
-  - Local progress, language, sound, and vibration settings
+  - Color numbered cells to reveal complete pixel-art pictures
+  - A relaxed pace that works for quick or longer sessions
+  - Bright artwork with clear, simple controls
+  - Play directly in a desktop or mobile browser
 ---
-Pixel Color Quest turns coloring into a satisfying little ritual. Pick an illustration, follow the numbers, and watch a cheerful picture appear one pixel at a time.
+Dive into a bright coloring world where every numbered cell brings a pixel-art picture closer to completion. Choose an illustration, match the colors, and reveal the finished masterpiece.
 
