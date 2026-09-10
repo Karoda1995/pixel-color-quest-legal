@@ -24,3 +24,9 @@ document.querySelectorAll('[data-coming-soon]').forEach((button) => {
 document.querySelector('[data-close-dialog]')?.addEventListener('click', () => dialog?.close());
 
 
+
+const savedLanguage=localStorage.getItem('magicfox-language');
+const browserLanguage=navigator.language&&navigator.language.toLowerCase().startsWith('ru')?'ru':'en';
+function setLanguage(language){const current=language==='ru'?'ru':'en';document.documentElement.lang=current;localStorage.setItem('magicfox-language',current);document.querySelectorAll('[data-en][data-ru]').forEach(node=>{node.textContent=node.dataset[current]});document.querySelectorAll('[data-lang]').forEach(button=>{const active=button.dataset.lang===current;button.classList.toggle('is-active',active);button.setAttribute('aria-pressed',String(active))});document.querySelectorAll('[data-lang-block]').forEach(node=>{node.hidden=node.dataset.langBlock!==current})}
+document.querySelectorAll('[data-lang]').forEach(button=>button.addEventListener('click',()=>setLanguage(button.dataset.lang)));
+setLanguage(savedLanguage||browserLanguage);
